@@ -1,0 +1,37 @@
+###################
+#  MINIKUBE TIPS  #
+###################
+
+# If there are any problem with minikube-net: 
+# $ sudo virsh net-start minikube-net
+
+# To enable net autostart: 
+# $ sudo virsh net-autostart minikube-net
+
+# To list minikube addons:
+# $ minikube addons list
+
+# To list all services and URLs:
+# $  minikube service list
+
+#  Actual addons state:
+[sp81885@oc2426003060 ~]$ minikube addons list
+- addon-manager: enabled
+- dashboard: enabled
+- default-storageclass: enabled
+- efk: enabled
+- freshpod: disabled
+- gvisor: disabled
+- heapster: enabled
+- ingress: enabled
+- metrics-server: enabled
+- nvidia-driver-installer: disabled
+- nvidia-gpu-device-plugin: disabled
+- registry: disabled
+- registry-creds: disabled
+- storage-provisioner: enabled
+
+
+
+
+
