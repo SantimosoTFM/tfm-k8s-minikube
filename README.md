@@ -1,2 +1,2 @@
-# tfm-k8s-minikube
+# tfm-minikube
 Minikube environment setup&amp;config
